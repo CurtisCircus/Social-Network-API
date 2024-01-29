@@ -28,8 +28,8 @@ db.once('open', () => {
 
   // Sync Mongoose models to the MongoDB database
   // This assumes you have defined your Mongoose models in separate files (e.g., User.js, Thought.js)
-  require('./models/User');
-  require('./models/Thought');
+  require('./models/user');
+  require('./models/thought');
 
   // Start the server
   app.listen(PORT, () => {
