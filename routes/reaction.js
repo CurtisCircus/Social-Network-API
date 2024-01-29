@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const reactionController = require('../../controllers/reactionController');
+const reactionController = require('../controllers/reactionController');
 
 // POST route for creating a reaction to a thought
 router.post('/reactions', reactionController.createReaction);
